@@ -1,0 +1,154 @@
+/*reset basico*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F8F9FB;
+    margin: 0;
+    font-size: 16px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+/* Product card*/
+.product-card{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    align-items: center;
+    
+
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    padding: 10px;
+}
+
+.titulo {
+    background: #111827;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 10px;
+    font-weight: 600;
+}
+/* Header (nombre + img*/
+.product-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Título */
+.product-title h3{
+    margin: 0;
+    font-weight: 600;
+}
+.product-title p {
+    margin: 2px 0 0;
+    color: #6b7280;
+}
+
+/* Columnas simples */
+.product-brand p,
+.product-storage p,
+.product-stock p,
+.product-price p {
+    margin: 0;
+}
+
+/* Precio destacado */
+.product-price p {
+    font-weight: 600;
+    color: #111827;
+}
+
+
+/* botones agrgar al carrito*/
+.product-action {
+    
+    display: none;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.quantity-control {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+
+    height: 34px;
+    padding: 0 8px;
+
+    background-color: #f1f3f6;
+    border-radius: 999px;
+}
+
+.btn-qty{
+    width: 24px;
+    height: 24px;
+
+    border: none;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+
+    font-size: 16px;
+    font-weight: 600;
+    color: #374151;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.qty-value{
+    min-width: 14px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.btn-add {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    height: 34px;
+    padding: 0 14px;
+
+    border: none;
+    border-radius: 999px;
+
+    background-color: #7b4ce3;
+    color: #ffffff;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-add:hover {
+    background-color: #6438c7;
+}
+
+.conteiner{
+    padding: 10px;
+}
+
+/* ===== ESTILOS PARA COMPUTADORA ===== */
+
+
